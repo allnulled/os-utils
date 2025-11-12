@@ -1,14 +1,14 @@
 {
-  "name": "os-utils",
+  "name": "@allnulled/os-utils",
   "version": "1.0.0",
-  "description": "",
+  "description": "API de Node.js para manipular ficheros en grupos con `glob` y ejecutar comandos de consola con `child_process.execSync`.",
   "main": "os-utils.js",
   "scripts": {
     "test": "node test/test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["fs", "glob", "pipe", "os", "cmd", "utils"],
+  "author": "github.com/allnulled",
+  "license": "WTFPL",
   "dependencies": {
     "glob": "^11.0.3"
   }
