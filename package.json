@@ -1,0 +1,15 @@
+{
+  "name": "os-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "os-utils.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^11.0.3"
+  }
+}
