@@ -13,8 +13,8 @@ npm i -s @allnulled/os-utils
 ```js
 const OsUtils = require("@allnulled/os-utils");
 
-OsUtils
-    .changeDirectory(__dirname)
-    .select("**/*.js")
-    .execute("`cat ${file}`");
+const fileSelection = OsUtils.changeDirectory(__dirname).select("**/*.js");
+
+fileSelection.execute("`cat ${file}`");
+fileSelection.execute(file => `cat ${file}`);
 ```
